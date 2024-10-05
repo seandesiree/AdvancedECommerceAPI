@@ -1,8 +1,43 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## E-Commerce Application
 
-Currently, two official plugins are available:
+The e-commerce application enables effective management of different entities involved in a typical online shopping platform. Users can manage customer profiles, customer accounts, product catalogs, and orders seamlessly. Additionally, integration with Flask-SQLAlchemy and a MySQL database is utilized for storing and retrieving data efficiently.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+
+- Customer and Customer Account Management (CRUD operations)
+- Product Catalog Management (CRUD operations)
+- Order Processing including placement, retrieval, and tracking of orders
+- Database Integration with MySQL
+
+
+## Technologies Used
+
+- Flask
+- Flask-SQLAlchemy
+- MySQL
+- Postman (For API testing and collection development)
+
+## Setup Instructions
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/seandesiree/AdvancedECommerceAPI
+   cd AdvancedECommerceAPI
+   ```
+
+2. **Install Dependencies:**
+   Ensure that you have Python and pip installed. Then, install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   npm install
+   npm install react-bootstrap bootstrap
+   ```
+
+
+4. **Run the Application:**
+   Start the Flask development server:
+   ```bash
+   flask run
+   ```
+
