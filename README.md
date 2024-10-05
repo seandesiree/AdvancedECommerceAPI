@@ -1,22 +1,24 @@
+# React E-Commerce Application
 
-## E-Commerce Application
-
-The e-commerce application enables effective management of different entities involved in a typical online shopping platform. Users can manage customer profiles, customer accounts, product catalogs, and orders seamlessly. Additionally, integration with Flask-SQLAlchemy and a MySQL database is utilized for storing and retrieving data efficiently.
+The application provides a fully functional e-commerce platform where users can manage customer profiles, customer accounts, product catalogs, and orders. It leverages React for front-end development, integrating Bootstrap for a polished, responsive interface.
 
 ## Key Features
 
-- Customer and Customer Account Management (CRUD operations)
-- Product Catalog Management (CRUD operations)
-- Order Processing including placement, retrieval, and tracking of orders
-- Database Integration with MySQL
-
+- Customer and CustomerAccount Management (CRUD operations via React components)
+- Product Catalog Management with confirmation modal
+- Order Processing including order placement, history management, and order total calculation
+- Routing and Navigation with React Router
+- Bonus functionality for stock management and order cancellation
+- Integration with a backend API for data persistence
 
 ## Technologies Used
 
-- Flask
-- Flask-SQLAlchemy
-- MySQL
-- Postman (For API testing and collection development)
+- React
+- React Router
+- React-Bootstrap
+- Axios (or other library) for API requests
+- Backend APIs for data operations
+- CSS/SCSS for styling
 
 ## Setup Instructions
 
@@ -27,17 +29,14 @@ The e-commerce application enables effective management of different entities in
    ```
 
 2. **Install Dependencies:**
-   Ensure that you have Python and pip installed. Then, install the required packages:
+   Ensure you have Node.js and npm installed. Then, run:
    ```bash
-   pip install -r requirements.txt
    npm install
    npm install react-bootstrap bootstrap
    ```
 
-
 4. **Run the Application:**
-   Start the Flask development server:
+   Start the development server:
    ```bash
-   flask run
+   npm run dev
    ```
-
